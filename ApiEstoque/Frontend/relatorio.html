@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Estoque</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Relatório de Estoque</h1>
+        <nav>
+            <ul>
+                <li><a href="cadastro.html">Cadastrar Novo Produto</a></li>
+                <li><a href="index.html">Listar Produtos</a></li>
+                <li><a href="relatorio.html">Relatório de Estoque</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="relatorio-estoque">
+            <h2>Análise de Dados do Estoque</h2>
+            <div id="valor-total-estoque">
+                <h3>Valor Total do Estoque: <span id="total-valor">R$ 0.00</span></h3>
+            </div>
+
+            <div id="produtos-baixo-estoque">
+                <h3>Produtos com Baixo Estoque (abaixo de 10 unidades):</h3>
+                <ul id="lista-baixo-estoque">
+                    </ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
